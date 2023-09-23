@@ -1,0 +1,17 @@
+.unvalid span {
+    color: red;
+}
+
+.valid span {
+    color: green;
+}
+
+.unvalid span, .valid span {
+    margin-right: 12px;
+    font-size: 32px;
+}
+
+.validation {
+    display: flex;
+    align-items: center;
+}
